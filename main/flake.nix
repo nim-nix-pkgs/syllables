@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-syllables-main.flake = false;
+  inputs.src-syllables-main.ref   = "refs/heads/main";
   inputs.src-syllables-main.owner = "tonogram";
-  inputs.src-syllables-main.ref   = "main";
   inputs.src-syllables-main.repo  = "nim-syllables";
   inputs.src-syllables-main.type  = "github";
   
